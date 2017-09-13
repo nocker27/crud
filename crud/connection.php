@@ -1,9 +1,5 @@
 <?php
 /*
-// mysql_connect("database-host", "username", "password")
-$conn = mysql_connect("localhost","root","root") 
-			or die("cannot connected");
-
 // mysql_select_db("database-name", "connection-link-identifier")
 @mysql_select_db("4sale",$conn);
 */
@@ -13,10 +9,10 @@ $conn = mysql_connect("localhost","root","root")
  * using mysqli_connect instead
  */
 
-$databaseHost = 'localhost';
-$databaseName = '4sale';
-$databaseUsername = 'root';
-$databasePassword = 'root';
+$databaseHost = 'lneven.dk.mysql';
+$databaseName = 'lneven_dk_4sale';
+$databaseUsername = 'lneven_dk_4sale';
+$databasePassword = 'zxcv92';
 
 $mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName); 
 	
